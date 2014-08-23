@@ -1,0 +1,58 @@
+body {
+	height: 100%;
+}
+
+.space-60 { height: 60px; }
+.space-30 { height: 30px; }
+
+.item-container {
+	background-color: rgba(66,139,202, 0.8);
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+#home span {
+	font-size: 8em;
+}
+
+.social span {
+	font-size: 3em;
+}
+
+.contact-method span {
+	font-size: 3em;
+}
+
+.contact-method p {
+	font-size: 1.5em;
+}
+
+.social {
+	
+}
+
+.service-item span {
+	font-size: 5em;
+}
+
+p {
+	color: #ddd;
+}
+
+#content {
+	position: relative;
+	z-index: 100;
+}
+
+#bg {
+	z-index: 50;
+	position: fixed;
+	top:0;
+	left:0;
+	width:130%;
+	height:130%;
+	background:url('../img/road.jpg') no-repeat center top;
+	background-size: cover;
+}
