@@ -21,6 +21,10 @@ body {
 	font-size: 3em;
 }
 
+.header {
+	font-size: 50px;
+}
+
 a, a:hover {
 	color: #fff;
 }
