@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	skrollr.init();
+	skrollr.init({
+		smoothScrolling: false
+	});
 })
