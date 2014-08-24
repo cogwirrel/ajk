@@ -4,9 +4,13 @@ body {
 
 .space-60 { height: 60px; }
 .space-30 { height: 30px; }
+.space-15 { height: 15px; }
+
+.left-align { float: left; }
+.right-align { float: right; }
 
 .item-container {
-	background-color: rgba(66,139,202, 0.9);
+	background-color: rgba(122, 168, 61, 0.9);
 	border-radius: 5px;
 	padding: 10px;
 	text-align: center;
@@ -23,6 +27,34 @@ body {
 
 .header {
 	font-size: 50px;
+	font-family: Arial bold;
+	color: rgb(0, 114, 54);
+}
+
+.sub-header {
+	font-size: 20px;
+	font-family: Arial;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+}
+
+.testimony-item {
+	height: 120px;
+	width: 70%;
+	margin: auto;
+}
+
+.testimony-item p {
+	vertical-align: middle;
+}
+
+h1 {
+	color: rgb(0, 114, 54);
 }
 
 a, a:hover {
@@ -46,7 +78,11 @@ a, a:hover {
 }
 
 p {
-	color: #ddd;
+	color: #fff;
+}
+
+#copyright-container {
+	height: 20px;
 }
 
 #content {
