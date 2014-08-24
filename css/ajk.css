@@ -4,6 +4,7 @@ body {
 
 .space-60 { height: 60px; }
 .space-30 { height: 30px; }
+.fixed-height-200 { height: 200px; }
 
 .item-container {
 	background-color: rgba(66,139,202, 0.9);
@@ -92,3 +93,4 @@ p {
 	z-index: -5;
 	background:url('../img/front.png') no-repeat center top;
 }
+
