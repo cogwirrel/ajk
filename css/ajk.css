@@ -6,7 +6,7 @@ body {
 .space-30 { height: 30px; }
 
 .item-container {
-	background-color: rgba(66,139,202, 0.8);
+	background-color: rgba(66,139,202, 0.9);
 	border-radius: 5px;
 	padding: 10px;
 	text-align: center;
@@ -50,9 +50,8 @@ p {
 	position: fixed;
 	top:0;
 	left:0;
-	width:130%;
-	height:130%;
-	background-size: cover !important;
+	width:100%;
+	height:100%;
 }
 
 #bg-sky {
@@ -65,17 +64,27 @@ p {
 	background:url('../img/clouds.png') no-repeat center top;
 }
 
-#bg-mountains {
+#bg-mountains-far {
 	z-index: -9;
-	background:url('../img/mountains.png') no-repeat center top;
+	background:url('../img/mountains-far.png') no-repeat center top;
+}
+
+#bg-mountains-near {
+	z-index: -8;
+	background:url('../img/mountains-near.png') no-repeat center top;
+}
+
+#bg-back {
+	z-index: -7;
+	background:url('../img/back.png') no-repeat center top;
 }
 
 #bg-middle {
-	z-index: -8;
+	z-index: -6;
 	background:url('../img/middle.png') no-repeat center top;
 }
 
 #bg-front {
-	z-index: -7;
+	z-index: -5;
 	background:url('../img/front.png') no-repeat center top;
 }
