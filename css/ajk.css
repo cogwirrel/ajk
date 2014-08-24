@@ -21,6 +21,10 @@ body {
 	font-size: 3em;
 }
 
+a, a:hover {
+	color: #fff;
+}
+
 .contact-method span {
 	font-size: 3em;
 }
