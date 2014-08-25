@@ -108,6 +108,24 @@ p {
 	font-size: 22px;
 }
 
+.contact-highlight {
+	background-color: rgba(242, 252, 38, 0.9);
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.contact-no-highlight {
+	background-color: rgba(122, 168, 61, 0.9);;
+    -webkit-transition: background-color 700ms linear;
+    -moz-transition: background-color 700ms linear;
+    -o-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+}
+
 #content {
 	position: relative;
 	z-index: 100;
