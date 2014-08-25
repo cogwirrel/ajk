@@ -97,6 +97,10 @@ p {
 	background-color: #f2fc26;
 	padding: 5px;
 	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
 	margin-top:30px;
 	margin-left:-175px;
 	width: 250px;
@@ -150,12 +154,4 @@ p {
 #bg-front {
 	z-index: -5;
 	background:url('../img/front.png') no-repeat center top;
-}
-
-@media (max-width: 991px) {
-
-  .contact {
-      margin-bottom: 60px;
-  }
-
 }
