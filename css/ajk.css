@@ -83,6 +83,10 @@ p {
 	color: #fff;
 }
 
+.copyright-item-container {
+	height:40px;
+}
+
 #quote-container {
 	text-align: right;
 }
