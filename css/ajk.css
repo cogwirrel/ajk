@@ -71,16 +71,32 @@ a, a:hover {
 	font-size: 1.5em;
 }
 
-.social {
-	min-height: 201px;
-}
-
 .service-item span {
 	font-size: 5em;
 }
 
 p {
 	color: #fff;
+}
+
+.what-we-do-list {
+	text-align: left;
+	font-size: 18px;
+}
+
+.what-we-do-sublist {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.and-more {
+	font-size: 17px;
+}
+
+@media (max-width: 991px) { 
+  .side-col:not(:first-child){
+      margin-top: 60px;
+  }
 }
 
 .copyright-item-container {
