@@ -24,7 +24,7 @@ body {
 	padding-right: 0px;
 }
 
-.nav-active {
+.nav-active, .nav-item:hover {
 	background-color: rgba(242, 252, 38, 0.95);
 }
 
