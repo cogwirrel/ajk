@@ -1,4 +1,4 @@
-<?php include('main_template_top.php'); ?>
+<?php include('template/top.php'); ?>
 
 <div class="space-60"></div>
 
@@ -173,4 +173,4 @@
 
 <div class="space-60"></div>
 
-<?php include('main_template_bottom.php'); ?>
+<?php include('template/bottom.php'); ?>
