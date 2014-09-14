@@ -156,13 +156,13 @@
 
 			<div class="row contact-method">
 				<div class="col-md-6">
-					<a href="mailto:jktransit@outlook.com"><span class="fa fa-envelope-o"></span></a>
-					<p><a href="mailto:jktransit@outlook.com">jktransit@outlook.com</a></p>
+					<a href="mailto:<?php echo $email; ?>"><span class="fa fa-envelope-o"></span></a>
+					<p><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></p>
 				</div>
 
 				<div class="col-md-6">
 					<span class="fa fa-phone"></span>
-					<p>07914 044 918</p>
+					<p><?php echo $phone; ?></p>
 				</div>
 			</div>
 
