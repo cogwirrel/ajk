@@ -46,40 +46,14 @@
 	<div class="col-md-8">
 
 		<div class="row">
-			<div class="col-md-6 side-col">
-				<div class="item-container">
-					<h1>What we do...</h1>
-					<div class="space-15"></div>
-					<div class="row what-we-do-list">
-						<div class="col-xs-6 what-we-do-sublist">
-							<ul>
-								<li><p>House Clearance</p></li>
-								<li><p>Deliveries</p></li>
-								<li><p>Removals</p></li>
-							</ul>
-						</div>
-						<div class="col-xs-6 what-we-do-sublist">
-							<ul>
-								<li><p>Collections</p></li>
-								<li><p>EBay Deliveries</p></li>
-								<li><p>Haulage</p></li>
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<p class="and-more"><em>And more...</em></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 side-col">
+			
+			<div class="col-md-12">
 				<div class="item-container">
 					<h1>Where we go...</h1>
 					<div class="space-15"></div>
 					<div class="row">
 						<div class="col-md-12">
-							<p>Trowbridge - Westbury - Warminster - Frome - Radstock - Bradford on Avon - Bath - Chippenham - Calne - Devizes - Melksham - Bratton - Peasedown St John - Salisbury - Shepton Mallet</p>
+							<p class="where-we-go">Trowbridge - Westbury - Warminster - Frome - Radstock - Bradford on Avon - Bath - Chippenham - Calne - Devizes - Melksham - Bratton - Peasedown St John - Salisbury - Shepton Mallet</p>
 							<div class="space-15"></div>
 							<p class="and-more"><em>And more...</em></p>
 						</div>
