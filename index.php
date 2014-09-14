@@ -6,7 +6,7 @@
 	<div class="col-md-12">
 		<div class="item-container">
 			<div id="quote-container"><a id="quote-corner" href="#contact">Free Quote!</a></div>
-			<h1 class="header"><?php echo $name_caps; ?></h1>
+			<h1 class="header"><?php echo strtoupper($name); ?></h1>
 			<h2 class="sub-header"><?php echo $tagline; ?></h2>
 			<h2 id="location-sub-header" class="sub-header"><?php echo $where; ?></h2>
 			<div class="row">
@@ -157,7 +157,5 @@
 		</div>
 	</div>
 </div>
-
-<div class="space-60"></div>
 
 <?php include('template/bottom.php'); ?>

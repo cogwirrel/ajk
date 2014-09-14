@@ -1,8 +1,10 @@
+	<div class="space-60"></div>
+
 	<div id="copyright" class="row">
 				<div class="col-md-12">
 					<div class="item-container copyright-item-container">
 						<div id="copyright-container">
-							<p class="left-align">Copyright &copy; J K Transit</p>
+							<p class="left-align">Copyright &copy; <?php echo $name; ?></p>
 							<p class="right-align">Website by <a href="http://cogwirrel.com">Jack Stevenson</a></p>
 						</div>
 					</div>
