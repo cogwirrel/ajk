@@ -9,4 +9,4 @@
 	<div class="col-md-2 nav-col"><a href="<?php echo $root; ?>gallery"><div class="item-container nav-item<?php if($active === 'gallery'): ?> nav-active<?php endif;?>"><span class="nav-text">Gallery</span></div></a></div>
 </div>
 
-<div class="space-15"></div>
+<div class="space-60"></div>

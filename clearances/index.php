@@ -4,7 +4,7 @@
 
 <?php include('../template/header.php'); ?>
 
-<?php $active='about'; include('../template/nav.php'); ?>
+<?php $active='clearances'; include('../template/nav.php'); ?>
 
 hello
 

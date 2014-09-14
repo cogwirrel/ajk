@@ -23,9 +23,6 @@
 
 <?php $active='home'; include('template/nav.php'); ?>
 
-<div class="space-15"></div>
-<div class="space-30"></div>
-
 <div id="services">
 	<div class="row">
 		<div class="col-md-12">
