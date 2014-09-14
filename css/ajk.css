@@ -114,6 +114,14 @@ p {
 	font-size: 17px;
 }
 
+.side-img {
+	width: 100%;
+}
+
+.charity-logo-img {
+	height: 100px;
+}
+
 @media (max-width: 991px) { 
   .side-col:not(:first-child){
       margin-top: 60px;
