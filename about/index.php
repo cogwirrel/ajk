@@ -29,7 +29,7 @@
 						<div class="col-md-6">
 							<h3>FFFC</h3>
 							<div class="charity-logo-container">
-								<img class="charity-logo-img" src="http://www.fffc.org.uk/graphics/fffc-logo.jpg"></img>
+								<a href="http://www.fffc.org.uk/"><img class="charity-logo-img" src="http://www.fffc.org.uk/graphics/fffc-logo.jpg"></img></a>
 							</div>
 							<div class="space-15"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae.</p>
@@ -38,7 +38,7 @@
 						<div class="col-md-6">
 							<h3>BHF</h3>
 							<div class="charity-logo-container">
-								<img class="charity-logo-img" src="http://www.incaproductions.co.uk/wp-content/uploads/2012/04/bhf-gallery.png"></img>
+								<a href="http://www.bhf.org.uk/"><img class="charity-logo-img" src="http://www.incaproductions.co.uk/wp-content/uploads/2012/04/bhf-gallery.png"></img></a>
 							</div>
 							<div class="space-15"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae.</p>
