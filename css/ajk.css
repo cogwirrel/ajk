@@ -10,7 +10,7 @@ body {
 .right-align { float: right; }
 
 .item-container {
-	background-color: rgba(122, 168, 61, 0.9);
+	background-color: rgba(122, 168, 61, 0.95);
 	border-radius: 5px;
 	padding: 10px;
 	text-align: center;
@@ -33,12 +33,21 @@ body {
 	color: rgb(0, 114, 54);
 }
 
+#location-sub-header {
+	font-size: 28px;
+}
+
 .sub-header {
 	font-size: 20px;
 	font-family: Arial;
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 4px;
+}
+
+.contact-header {
+	font-size: 26px;
+	color: rgb(0, 114, 54);
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -60,7 +69,7 @@ h1 {
 }
 
 a, a:hover {
-	color: #fff;
+	color: inherit;
 }
 
 .contact-method span {
