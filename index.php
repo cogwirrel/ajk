@@ -9,9 +9,9 @@
 	<title>J K Transit</title>
 
 	<meta property="og:title" content="J K Transit" />
-	<meta property="og:image" content="http://jktransit.com/img/jk_icon.png" />
+	<meta property="og:image" content="http://jktransit.co.uk/img/jk_icon.png" />
 	<meta property="og:description" content="Courier and Transport. Easy, friendly and professional." />
-	<meta property="og:url" content="http://jktransit.com" />
+	<meta property="og:url" content="http://jktransit.co.uk" />
 	<meta property="og:type" content="website" />
 	
 	<meta name="description" content="Courier and Transport. Easy, friendly and professional.">
