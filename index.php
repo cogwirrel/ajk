@@ -1,272 +1,176 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="icon" type="image/png" href="img/jk_icon.png">
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/ajk.css" rel="stylesheet">
+<?php include('main_template_top.php'); ?>
 
-	<title>J K Transit</title>
+<div class="space-60"></div>
 
-	<meta property="og:title" content="J K Transit" />
-	<meta property="og:image" content="http://jktransit.co.uk/img/jk_icon.png" />
-	<meta property="og:description" content="Courier and Transport. Easy, friendly and professional." />
-	<meta property="og:url" content="http://jktransit.co.uk" />
-	<meta property="og:type" content="website" />
-	
-	<meta name="description" content="Courier and Transport. Easy, friendly and professional.">
-	<meta name="keywords" content="Courier, Transport, Transit, JKTransit, House Clearance, Deliveries, Removals, Collections, EBay Deliveries, Haulage, J K Transit, J K, J, K, Van, Van man, Wiltshire, Somerset, South West, England, Trowbridge, Westbury, Warminster, Frome, Radstock, Bradford on Avon, Bath, Chippenham, Calne, Devizes, Melksham, Bratton, Peasedown St John, Salisbury, Shepton Mallet">
-	<meta name="author" content="Jack Stevenson">
-</head>
-
-<body>
-
-<div id="skrollr-body">
-	<div id="content" class="container">
-
-		<div class="space-60"></div>
-
-		<div id="home" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div class="item-container">
-					<div id="quote-container"><a id="quote-corner" href="#contact">Free Quote!</a></div>
-					<h1 class="header">J K TRANSIT</h1>
-					<h2 class="sub-header">House Clearance Specialist - Removals - Courier - Transport</h2>
-					<h2 id="location-sub-header" class="sub-header">Wiltshire</h2>
-					<div class="row">
-						<div class="col-md-6">
-							<p class="contact-header"><a href="mailto:jktransit@outlook.com"><i class="fa fa-envelope-o"></i><br>jktransit@outlook.com</a></p>
-						</div>
-						<div class="col-md-6">
-							<p class="contact-header"><i class="fa fa-phone"></i><br>07914 044 918</p>
-						</div>
+<div id="services">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			
+			<div class="item-container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Who we are...</h1>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-2"></div>
-		</div>
 
-		<div class="space-60"></div>
-
-		<div id="services">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					
-					<div class="item-container">
-						<div class="row">
-							<div class="col-md-12">
-								<h1>Who we are...</h1>
-							</div>
-						</div>
-
-						<div class="space-30"></div>
-
-						<div class="row">
-							<div class="col-md-4 service-item">
-								<span class="fa fa-cogs"></span>
-								<h3>Tailored</h3>
-								<p>We're here to help you. Whatever you need us to do, wherever you need us to go.</p>
-							</div>
-							<div class="col-md-4 service-item">
-								<span class="fa fa-gbp"></span>
-								<h3>Competitive</h3>
-								<p>We offer a free quote and our services are priced competitively.</p>
-							</div>
-							<div class="col-md-4 service-item">
-								<span class="fa fa-graduation-cap"></span>
-								<h3>Professional</h3>
-								<p>Not just a man in a van! We arrive uniformed and ready to look after your goods.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-		</div>
-
-		<div class="space-60"></div>
-
-		<div id="what-where" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
+				<div class="space-30"></div>
 
 				<div class="row">
-					<div class="col-md-6 side-col">
-						<div class="item-container">
-							<h1>What we do...</h1>
-							<div class="space-15"></div>
-							<div class="row what-we-do-list">
-								<div class="col-xs-6 what-we-do-sublist">
-									<ul>
-										<li><p>House Clearance</p></li>
-										<li><p>Deliveries</p></li>
-										<li><p>Removals</p></li>
-									</ul>
-								</div>
-								<div class="col-xs-6 what-we-do-sublist">
-									<ul>
-										<li><p>Collections</p></li>
-										<li><p>EBay Deliveries</p></li>
-										<li><p>Haulage</p></li>
-									</ul>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<p class="and-more"><em>And more...</em></p>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-4 service-item">
+						<span class="fa fa-cogs"></span>
+						<h3>Tailored</h3>
+						<p>We're here to help you. Whatever you need us to do, wherever you need us to go.</p>
 					</div>
-					<div class="col-md-6 side-col">
-						<div class="item-container">
-							<h1>Where we go...</h1>
-							<div class="space-15"></div>
-							<div class="row">
-								<div class="col-md-12">
-									<p>Trowbridge - Westbury - Warminster - Frome - Radstock - Bradford on Avon - Bath - Chippenham - Calne - Devizes - Melksham - Bratton - Peasedown St John - Salisbury - Shepton Mallet</p>
-									<div class="space-15"></div>
-									<p class="and-more"><em>And more...</em></p>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-4 service-item">
+						<span class="fa fa-gbp"></span>
+						<h3>Competitive</h3>
+						<p>We offer a free quote and our services are priced competitively.</p>
 					</div>
-				</div>
-				
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-
-		<div class="space-60"></div>
-
-		<div id="testimony" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div class="item-container">
-					<h1>Testimonials</h1>
-					<div class="space-15"></div>
-					
-					<div id="carousel-testimony" class="carousel slide" data-ride="carousel" data-interval="10000">
-
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="testimony-item">
-									<p><em>"They arrived when we had arranged, ready to do the job. They secured our goods firmly in the back of the van and they arrived undamaged. We will be using J K Transit again."</em> Geoff, Devizes<p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-item">
-									<p><em>"They managed to fit me in last minute, couldn't be more helpful."</em> Barbara, Bradford on Avon<p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-item">
-									<p><em>"We'd arranged to transport a lot of items in a single van load. However one or two items didn't quite fit. The drivers were very busy but they arranged to come back in the evening to complete the job at no extra charge."</em> John, Trowbridge<p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-item">
-									<p><em>"I like the fact they went the extra mile to wrap all of my goods in blankets before securing them in the van."</em> Lee, Bedminster<p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-item">
-									<p><em>"I was very impressed at the level of service I received, based on how competitive the price was."</em> Tracy, Weston-super-Mare<p>
-								</div>
-							</div>
-						</div>
-
-						<a class="left carousel-control" href="#carousel-testimony" role="button" data-slide="prev">
-							<span class="fa fa-chevron-left"></span>
-						</a>
-						<a class="right carousel-control" href="#carousel-testimony" role="button" data-slide="next">
-							<span class="fa fa-chevron-right"></span>
-						</a>
+					<div class="col-md-4 service-item">
+						<span class="fa fa-graduation-cap"></span>
+						<h3>Professional</h3>
+						<p>Not just a man in a van! We arrive uniformed and ready to look after your goods.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-2"></div>
 		</div>
-
-		<div class="space-60"></div>
-
-		<div id="contact" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div class="item-container contact contact-no-highlight">
-					<h1>Contact</h1>
-					<h2 class="sub-header">Call or Email us for a FREE QUOTE</h2>
-
-					<div class="space-15"></div>
-
-					<div class="row contact-method">
-						<div class="col-md-6">
-							<a href="mailto:jktransit@outlook.com"><span class="fa fa-envelope-o"></span></a>
-							<p><a href="mailto:jktransit@outlook.com">jktransit@outlook.com</a></p>
-						</div>
-
-						<div class="col-md-6">
-							<span class="fa fa-phone"></span>
-							<p>07914 044 918</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-
-		<div class="space-60"></div>
-
-		<div id="copyright" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div class="item-container copyright-item-container">
-					<div id="copyright-container">
-						<p class="left-align">Copyright &copy; J K Transit</p>
-						<p class="right-align">Website by <a href="http://cogwirrel.com">Jack Stevenson</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-
-		<div class="space-30"></div>
-
+		<div class="col-md-2"></div>
 	</div>
 </div>
 
-<div id="bg-sky" class="bg"></div>
+<div class="space-60"></div>
 
-<div id="bg-clouds" class="bg"></div>
+<div id="what-where" class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
 
-<div id="bg-mountains-far" class="bg" data-0="background-position:center -50px;" data-end="background-position:center -80px;"></div>
+		<div class="row">
+			<div class="col-md-6 side-col">
+				<div class="item-container">
+					<h1>What we do...</h1>
+					<div class="space-15"></div>
+					<div class="row what-we-do-list">
+						<div class="col-xs-6 what-we-do-sublist">
+							<ul>
+								<li><p>House Clearance</p></li>
+								<li><p>Deliveries</p></li>
+								<li><p>Removals</p></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 what-we-do-sublist">
+							<ul>
+								<li><p>Collections</p></li>
+								<li><p>EBay Deliveries</p></li>
+								<li><p>Haulage</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p class="and-more"><em>And more...</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 side-col">
+				<div class="item-container">
+					<h1>Where we go...</h1>
+					<div class="space-15"></div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Trowbridge - Westbury - Warminster - Frome - Radstock - Bradford on Avon - Bath - Chippenham - Calne - Devizes - Melksham - Bratton - Peasedown St John - Salisbury - Shepton Mallet</p>
+							<div class="space-15"></div>
+							<p class="and-more"><em>And more...</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="col-md-2"></div>
+</div>
 
-<div id="bg-mountains-near" class="bg" data-0="background-position:center 50px;" data-end="background-position:center -50px;"></div>
+<div class="space-60"></div>
 
-<div id="bg-back" class="bg" data-0="background-position:center 110px;" data-end="background-position:center -110px;"></div>
+<div id="testimony" class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+		<div class="item-container">
+			<h1>Testimonials</h1>
+			<div class="space-15"></div>
+			
+			<div id="carousel-testimony" class="carousel slide" data-ride="carousel" data-interval="10000">
 
-<div id="bg-middle" class="bg" data-0="background-position:center 150px;" data-end="background-position:center -150px;"></div>
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="testimony-item">
+							<p><em>"They arrived when we had arranged, ready to do the job. They secured our goods firmly in the back of the van and they arrived undamaged. We will be using J K Transit again."</em> Geoff, Devizes<p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimony-item">
+							<p><em>"They managed to fit me in last minute, couldn't be more helpful."</em> Barbara, Bradford on Avon<p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimony-item">
+							<p><em>"We'd arranged to transport a lot of items in a single van load. However one or two items didn't quite fit. The drivers were very busy but they arranged to come back in the evening to complete the job at no extra charge."</em> John, Trowbridge<p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimony-item">
+							<p><em>"I like the fact they went the extra mile to wrap all of my goods in blankets before securing them in the van."</em> Lee, Bedminster<p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimony-item">
+							<p><em>"I was very impressed at the level of service I received, based on how competitive the price was."</em> Tracy, Weston-super-Mare<p>
+						</div>
+					</div>
+				</div>
 
-<div id="bg-front" class="bg" data-0="background-position:center 200px;" data-end="background-position:center -200px;"></div>
+				<a class="left carousel-control" href="#carousel-testimony" role="button" data-slide="prev">
+					<span class="fa fa-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-testimony" role="button" data-slide="next">
+					<span class="fa fa-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2"></div>
+</div>
 
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
-<script src="js/ajk.js"></script>
+<div class="space-60"></div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div id="contact" class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+		<div class="item-container contact contact-no-highlight">
+			<h1>Contact</h1>
+			<h2 class="sub-header">Call or Email us for a FREE QUOTE</h2>
 
-  ga('create', 'UA-54150531-1', 'auto');
-  ga('send', 'pageview');
+			<div class="space-15"></div>
 
-</script>
+			<div class="row contact-method">
+				<div class="col-md-6">
+					<a href="mailto:jktransit@outlook.com"><span class="fa fa-envelope-o"></span></a>
+					<p><a href="mailto:jktransit@outlook.com">jktransit@outlook.com</a></p>
+				</div>
 
-</body>
-</html>
+				<div class="col-md-6">
+					<span class="fa fa-phone"></span>
+					<p>07914 044 918</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="col-md-2"></div>
+</div>
+
+<div class="space-60"></div>
+
+<?php include('main_template_bottom.php'); ?>
