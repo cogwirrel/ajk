@@ -1,19 +1,21 @@
-<div id="copyright" class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div class="item-container copyright-item-container">
-					<div id="copyright-container">
-						<p class="left-align">Copyright &copy; J K Transit</p>
-						<p class="right-align">Website by <a href="http://cogwirrel.com">Jack Stevenson</a></p>
+	<div id="copyright" class="row">
+				<div class="col-md-12">
+					<div class="item-container copyright-item-container">
+						<div id="copyright-container">
+							<p class="left-align">Copyright &copy; J K Transit</p>
+							<p class="right-align">Website by <a href="http://cogwirrel.com">Jack Stevenson</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-2"></div>
-		</div>
 
-		<div class="space-30"></div>
+			<div class="space-30"></div>
+
+		</div>
+	</div>
 
 	</div>
+	<div class="col-md-2"></div>
 </div>
 
 <div id="bg-sky" class="bg"></div>

@@ -1,11 +1,32 @@
 <?php include('template/top.php'); ?>
 
-<div class="space-60"></div>
+<div id="home" class="row">
+	<div class="col-md-12">
+		<div class="item-container">
+			<div id="quote-container"><a id="quote-corner" href="#contact">Free Quote!</a></div>
+			<h1 class="header"><?php echo $name_caps; ?></h1>
+			<h2 class="sub-header"><?php echo $tagline; ?></h2>
+			<h2 id="location-sub-header" class="sub-header"><?php echo $where; ?></h2>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="contact-header"><a href="mailto:<?php echo $email; ?>"><i class="fa fa-envelope-o"></i><br><?php echo $email; ?></a></p>
+				</div>
+				<div class="col-md-6">
+					<p class="contact-header"><i class="fa fa-phone"></i><br><?php echo $phone; ?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php $active='home'; include('template/nav.php'); ?>
+
+<div class="space-15"></div>
+<div class="space-30"></div>
 
 <div id="services">
 	<div class="row">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
+		<div class="col-md-12">
 			
 			<div class="item-container">
 				<div class="row">
@@ -35,15 +56,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2"></div>
 	</div>
 </div>
 
 <div class="space-60"></div>
 
 <div id="what-where" class="row">
-	<div class="col-md-2"></div>
-	<div class="col-md-8">
+	<div class="col-md-12">
 
 		<div class="row">
 			
@@ -63,14 +82,12 @@
 		</div>
 		
 	</div>
-	<div class="col-md-2"></div>
 </div>
 
 <div class="space-60"></div>
 
 <div id="testimony" class="row">
-	<div class="col-md-2"></div>
-	<div class="col-md-8">
+	<div class="col-md-12">
 		<div class="item-container">
 			<h1>Testimonials</h1>
 			<div class="space-15"></div>
@@ -114,14 +131,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-2"></div>
 </div>
 
 <div class="space-60"></div>
 
 <div id="contact" class="row">
-	<div class="col-md-2"></div>
-	<div class="col-md-8">
+	<div class="col-md-12">
 		<div class="item-container contact contact-no-highlight">
 			<h1>Contact</h1>
 			<h2 class="sub-header">Call or Email us for a FREE QUOTE</h2>
@@ -142,7 +157,6 @@
 
 		</div>
 	</div>
-	<div class="col-md-2"></div>
 </div>
 
 <div class="space-60"></div>

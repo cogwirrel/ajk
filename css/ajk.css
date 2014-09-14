@@ -19,6 +19,24 @@ body {
 	overflow: hidden;
 }
 
+.nav-item {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.nav-active {
+	background-color: rgba(242, 252, 38, 0.95);
+}
+
+.nav-col a {
+	text-decoration: none;
+}
+
+.nav-text, .nav-text:hover {
+	color: rgb(0, 114, 54);
+	font-size: 18px;
+}
+
 #home span {
 	font-size: 8em;
 }
