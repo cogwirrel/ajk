@@ -1,12 +1,10 @@
-<?php include('variables/variables.php'); ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" type="image/png" href="img/jk_icon.png">
+	<link rel="icon" type="image/png" href="<?php echo $root; ?>img/jk_icon.png">
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/ajk.css" rel="stylesheet">
+	<link href="<?php echo $root; ?>css/ajk.css" rel="stylesheet">
 
 	<title><?php echo $name; ?></title>
 

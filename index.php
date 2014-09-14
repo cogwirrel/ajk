@@ -1,3 +1,5 @@
+<?php include('variables/variables.php'); ?>
+
 <?php include('template/top.php'); ?>
 
 <div id="home" class="row">
