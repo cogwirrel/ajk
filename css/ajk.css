@@ -9,6 +9,11 @@ body {
 .left-align { float: left; }
 .right-align { float: right; }
 
+.text-container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .item-container {
 	background-color: rgba(122, 168, 61, 0.95);
 	border-radius: 5px;

@@ -6,6 +6,12 @@
 
 <?php $active='gallery'; include('../template/nav.php'); ?>
 
-hello
+<div class="row">
+	<div class="col-md-12">
+		<div class="item-container">
+			<h1>Gallery</h1>
+		</div>
+	</div>
+</div>
 
 <?php include('../template/bottom.php'); ?>
