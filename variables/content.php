@@ -1,5 +1,5 @@
 <?php
-	// --- MAIN INFO ---
+	// ---------------------- MAIN INFO ----------------------
 	$name = 'J K Transit';
 	$tagline = 'House Clearance Specialist - Removals - Courier - Transport';
 	$where = 'Wiltshire';
@@ -8,7 +8,7 @@
 	$email = 'jktransit@outlook.com';
 	$phone = '07914 044 918';
 
-	// --- HOME PAGE ---
+	// ---------------------- HOME PAGE ----------------------
 	
 	// Who we are
 	$home_tailored_description = "We're here to help you. Whatever you need us to do, wherever you need us to go.";
@@ -32,7 +32,7 @@
 	// Contact
 	$home_contact_text = "Call or email us for a FREE QUOTE";
 
-	// --- ABOUT US PAGE ---
+	// ---------------------- ABOUT US PAGE ----------------------
 	// To break up paragraphs, add <br><br> where you want to break
 	$about_text = "
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae. Cras augue libero, ullamcorper sed quam euismod, imperdiet luctus dolor. Etiam aliquet dignissim nisl vel blandit. Mauris eu interdum diam. Etiam mattis ipsum sem, in volutpat turpis sodales id.
@@ -55,7 +55,7 @@
 		array("BHF", "http://www.bhf.org.uk/", "http://www.fffc.org.uk/graphics/fffc-logo.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae."),
 	);
 
-	// --- CLEARANCES PAGE ---
+	// ---------------------- CLEARANCES PAGE ----------------------
 	// To break up paragraphs, add <br><br> where you want to break
 	$clearances_text = "
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae. Cras augue libero, ullamcorper sed quam euismod, imperdiet luctus dolor. Etiam aliquet dignissim nisl vel blandit. Mauris eu interdum diam. Etiam mattis ipsum sem, in volutpat turpis sodales id.
@@ -69,7 +69,7 @@
 		"http://placekitten.com/300/150"
 	);
 
-	// --- REMOVALS PAGE ---
+	// ---------------------- REMOVALS PAGE ----------------------
 	// To break up paragraphs, add <br><br> where you want to break
 	$removals_text = "
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae. Cras augue libero, ullamcorper sed quam euismod, imperdiet luctus dolor. Etiam aliquet dignissim nisl vel blandit. Mauris eu interdum diam. Etiam mattis ipsum sem, in volutpat turpis sodales id.
@@ -83,7 +83,7 @@
 		"http://placekitten.com/300/150"
 	);
 
-	// --- COURIER PAGE ---
+	// ---------------------- COURIER PAGE ----------------------
 	// To break up paragraphs, add <br><br> where you want to break
 	$courier_text = "
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae. Cras augue libero, ullamcorper sed quam euismod, imperdiet luctus dolor. Etiam aliquet dignissim nisl vel blandit. Mauris eu interdum diam. Etiam mattis ipsum sem, in volutpat turpis sodales id.
@@ -97,7 +97,7 @@
 		"http://placekitten.com/300/150"
 	);
 
-	// --- GALLERY PAGE ---
+	// ---------------------- GALLERY PAGE ----------------------
 	$gallery_images = array(
 		"http://placekitten.com/300/300",
 		"http://placekitten.com/400/400",
