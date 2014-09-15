@@ -1,24 +1,15 @@
 
 var galleryIndex = 0;
+var galleryImages = [];
 
 $(document).ready(function() {
 
 	// Gallery images
-	var images = [
-		"http://placekitten.com/300/300",
-		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/250",
-		"http://placekitten.com/300/300",
-		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/250",
-		"http://placekitten.com/300/300",
-		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/250",
-		"http://placekitten.com/300/300",
-		"http://placekitten.com/400/400"];
-
-	// Generate gallery
-	generateGallery(images);
+	var numImages = $('#gallery-container').find('img').length;
+	
+	for(var i = 0; i < numImages; i++) {
+		galleryImages.push($('#gallery-img-' + i).attr('src'));
+	}
 
 	$('.gallery-thumb').click(function() {
 		var src = $(this).attr('src');
@@ -35,42 +26,17 @@ $(document).ready(function() {
 
 	$('#gallery-button-next, .gallery-img').click(function() {
 		galleryIndex++;
-		$('#gallery-modal-img').attr('src', images[galleryIndex % images.length]);
+		$('#gallery-modal-img').attr('src', galleryImages[galleryIndex % galleryImages.length]);
 	});
 
 	$('#gallery-button-prev').click(function() {
 		galleryIndex--;
 		if(galleryIndex < 0) {
-			galleryIndex += images.length;
+			galleryIndex += galleryImages.length;
 		}
-		$('#gallery-modal-img').attr('src', images[galleryIndex % images.length]);
+		$('#gallery-modal-img').attr('src', galleryImages[galleryIndex % galleryImages.length]);
 	});
 
 	// Refresh skrollr as we've changed the height of the site
 	sk.refresh();
 });
-
-var generateGallery = function(images) {
-	var gallery = "";
-	for(var i = 0; i < images.length / 4; i++) {
-		gallery += '<div class="row">\n';
-
-		for(var j = 0; j < 4; j++) {
-
-			gallery += '<div class="col-md-3 col-xs-3">\n';
-
-			var index = i * 4 + j;
-			if(index < images.length) {
-				gallery += '<a class="thumbnail" href="javascript:void(0);">\n';
-				gallery += '<img data-gallery-id="' + index + '" class="gallery-thumb" src="' + images[index] + '"></img>\n';
-				gallery += '</a>\n';
-			}
-
-			gallery += '</div>\n';
-		}
-
-		gallery += '</div>\n';
-		gallery += '<div class="space-15"></div>\n';
-	}
-	$('#gallery-container').html(gallery);
-}
