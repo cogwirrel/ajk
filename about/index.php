@@ -26,25 +26,31 @@
 				<div class="item-container">
 					<h1>Who We Work With</h1>
 
-					<div class="row">
-						<div class="col-md-6">
-							<h3>FFFC</h3>
-							<div class="charity-logo-container">
-								<a href="http://www.fffc.org.uk/"><img class="charity-logo-img" src="http://www.fffc.org.uk/graphics/fffc-logo.jpg"></img></a>
-							</div>
-							<div class="space-15"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae.</p>
-						</div>
+					<?php
+						for($i = 0; $i < count($about_work_with) / 2; $i++) {
+							echo '<div class="row">';
 
-						<div class="col-md-6">
-							<h3>BHF</h3>
-							<div class="charity-logo-container">
-								<a href="http://www.bhf.org.uk/"><img class="charity-logo-img" src="http://www.incaproductions.co.uk/wp-content/uploads/2012/04/bhf-gallery.png"></img></a>
-							</div>
-							<div class="space-15"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus hendrerit iaculis. Duis sit amet massa sem. Pellentesque imperdiet risus nulla, nec commodo nulla porta vitae.</p>
-						</div>
-					</div>
+							for($j = 0; $j < 2; $j++) {
+
+								echo '<div class="col-md-6">';
+
+								$index = $i * 2 + $j;
+								if($index < count($about_work_with)) {
+									echo '<h3>'.$about_work_with[$index][0].'</h3>';
+									echo '<div class="charity-logo-container">
+											<a href="' . $about_work_with[$index][1] . '"><img class="charity-logo-img" src="' . $about_work_with[$index][2] . '"></img></a>
+										</div>
+										<div class="space-15"></div>
+										<p>' . $about_work_with[$index][3] . '</p>';
+								}
+
+								echo '</div>';
+							}
+
+							echo '</div>';
+							echo '<div class="space-15"></div>';
+						}
+					?>
 
 				</div>
 			</div>
