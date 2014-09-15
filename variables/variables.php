@@ -1,6 +1,6 @@
 <?php
 
-	$root='/ajk/';
+	$root='/jjtest/';
 
 	$name='J K Transit';
 	$tagline='House Clearance Specialist - Removals - Courier - Transport';
