@@ -44,7 +44,7 @@
 		"http://placekitten.com/500/300",
 		"http://placekitten.com/400/400",
 		"http://placekitten.com/300/400",
-		"http://placekitten.com/300/150"
+		"http://placekitten.com/300/150",
 	);
 
 	// Who we work with
@@ -66,7 +66,7 @@
 	$clearances_images = array(
 		"http://placekitten.com/500/300",
 		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/150"
+		"http://placekitten.com/300/150",
 	);
 
 	// ---------------------- REMOVALS PAGE ----------------------
@@ -80,7 +80,7 @@
 	$removals_images = array(
 		"http://placekitten.com/500/300",
 		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/150"
+		"http://placekitten.com/300/150",
 	);
 
 	// ---------------------- COURIER PAGE ----------------------
@@ -94,7 +94,7 @@
 	$courier_images = array(
 		"http://placekitten.com/500/300",
 		"http://placekitten.com/400/400",
-		"http://placekitten.com/300/150"
+		"http://placekitten.com/300/150",
 	);
 
 	// ---------------------- GALLERY PAGE ----------------------
@@ -109,6 +109,6 @@
 		"http://placekitten.com/400/400",
 		"http://placekitten.com/300/250",
 		"http://placekitten.com/300/300",
-		"http://placekitten.com/400/400"
+		"http://placekitten.com/400/400",
 	);
 ?>
