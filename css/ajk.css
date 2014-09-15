@@ -119,6 +119,14 @@ p {
 	font-size: 17px;
 }
 
+.gallery-thumb {
+	width: 100%;
+}
+
+.gallery-modal-img {
+	width: 100%;
+}
+
 .side-img {
 	width: 100%;
 }

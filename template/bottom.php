@@ -39,6 +39,10 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
 <script src="<?php echo $root; ?>js/ajk.js"></script>
 
+<?php if($active==='gallery'): ?>
+	<script src="<?php echo $root; ?>js/gallery.js"></script>
+<?php endif; ?>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -10,6 +10,8 @@
 	<div class="col-md-12">
 		<div class="item-container">
 			<h1>Gallery</h1>
+
+			<div id="gallery-container"></div>
 		</div>
 	</div>
 </div>

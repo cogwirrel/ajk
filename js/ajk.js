@@ -3,6 +3,7 @@ $(document).ready(function() {
 		smoothScrolling: true
 	});
 
+	// Corner quote banner
 	$('#quote-corner').click(function() {
 		$('.contact').removeClass('contact-no-highlight');
 		$('.contact').addClass('contact-highlight');

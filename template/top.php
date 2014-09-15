@@ -21,6 +21,20 @@
 
 <body>
 
+<div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-label" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<a class="gallery-img" href="javascript:void(0);"></a>
+			</div>
+			<div class="modal-footer">
+				<button type="button" id="gallery-button-prev" class="btn pull-left"><i class="fa fa-chevron-left"></i> Prev</button>
+				<button type="button" id="gallery-button-next" class="btn">Next <i class="fa fa-chevron-right"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div id="skrollr-body">
 	<div id="content" class="container">
 
