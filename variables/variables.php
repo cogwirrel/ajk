@@ -1,7 +1,7 @@
 <?php
 	include('content.php');
 
-	$root = '/ajk/';
+	$root = '/jjtest/';
 	
 	function generate_side_images($images) {
 		for($i = 0; $i < count($images); $i++) {
