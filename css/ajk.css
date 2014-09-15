@@ -136,9 +136,15 @@ p {
 }
 
 @media (max-width: 991px) { 
-  .side-col:not(:first-child){
-      margin-top: 60px;
-  }
+	.side-col:not(:first-child){
+		margin-top: 60px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.nav-col {
+		margin-top: 15px;
+	}
 }
 
 .copyright-item-container {

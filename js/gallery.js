@@ -57,16 +57,16 @@ var generateGallery = function(images) {
 
 		for(var j = 0; j < 4; j++) {
 
-			gallery += '<div class="col-md-3">\n';
-			gallery += '<a href="javascript:void(0);">';
+			gallery += '<div class="col-md-3 col-xs-3">\n';
 
 			var index = i * 4 + j;
 			if(index < images.length) {
-				gallery += '<img data-gallery-id="' + index + '" class="gallery-thumb" src="' + images[index] + '"></img>';
+				gallery += '<a class="thumbnail" href="javascript:void(0);">\n';
+				gallery += '<img data-gallery-id="' + index + '" class="gallery-thumb" src="' + images[index] + '"></img>\n';
+				gallery += '</a>\n';
 			}
 
-			gallery += '</a>';
-			gallery += '</div>';
+			gallery += '</div>\n';
 		}
 
 		gallery += '</div>\n';
