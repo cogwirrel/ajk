@@ -40,17 +40,17 @@
 					<div class="col-md-4 service-item">
 						<span class="fa fa-cogs"></span>
 						<h3>Tailored</h3>
-						<p>We're here to help you. Whatever you need us to do, wherever you need us to go.</p>
+						<p><?php echo $home_tailored_description; ?></p>
 					</div>
 					<div class="col-md-4 service-item">
 						<span class="fa fa-gbp"></span>
 						<h3>Competitive</h3>
-						<p>We offer a free quote and our services are priced competitively.</p>
+						<p><?php echo $home_competitive_description; ?></p>
 					</div>
 					<div class="col-md-4 service-item">
 						<span class="fa fa-graduation-cap"></span>
 						<h3>Professional</h3>
-						<p>Not just a man in a van! We arrive uniformed and ready to look after your goods.</p>
+						<p><?php echo $home_professional_description; ?></p>
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 					<div class="space-15"></div>
 					<div class="row">
 						<div class="col-md-12">
-							<p class="where-we-go">Trowbridge - Westbury - Warminster - Frome - Radstock - Bradford on Avon - Bath - Chippenham - Calne - Devizes - Melksham - Bratton - Peasedown St John - Salisbury - Shepton Mallet</p>
+							<p class="where-we-go"><?php echo $home_where_we_go; ?></p>
 							<div class="space-15"></div>
 							<p class="and-more"><em>And more...</em></p>
 						</div>
@@ -94,31 +94,16 @@
 			<div id="carousel-testimony" class="carousel slide" data-ride="carousel" data-interval="10000">
 
 				<div class="carousel-inner">
-					<div class="item active">
-						<div class="testimony-item">
-							<p><em>"They arrived when we had arranged, ready to do the job. They secured our goods firmly in the back of the van and they arrived undamaged. We will be using J K Transit again."</em> Geoff, Devizes<p>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-item">
-							<p><em>"They managed to fit me in last minute, couldn't be more helpful."</em> Barbara, Bradford on Avon<p>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-item">
-							<p><em>"We'd arranged to transport a lot of items in a single van load. However one or two items didn't quite fit. The drivers were very busy but they arranged to come back in the evening to complete the job at no extra charge."</em> John, Trowbridge<p>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-item">
-							<p><em>"I like the fact they went the extra mile to wrap all of my goods in blankets before securing them in the van."</em> Lee, Bedminster<p>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-item">
-							<p><em>"I was very impressed at the level of service I received, based on how competitive the price was."</em> Tracy, Weston-super-Mare<p>
-						</div>
-					</div>
+
+					<?php 
+						for($i = 0; $i < count($home_testimonials); $i++) {
+							$item_class = $i === 0 ? 'item active' : 'item';
+							echo '<div class="'.$item_class.'"><div class="testimony-item"><p><em>"';
+							echo $home_testimonials[$i][0] . '"</em> ';
+							echo $home_testimonials[$i][1] . '</p></div></div>';
+						}
+					?>
+					
 				</div>
 
 				<a class="left carousel-control" href="#carousel-testimony" role="button" data-slide="prev">
@@ -138,7 +123,7 @@
 	<div class="col-md-12">
 		<div class="item-container contact contact-no-highlight">
 			<h1>Contact</h1>
-			<h2 class="sub-header">Call or Email us for a FREE QUOTE</h2>
+			<h2 class="sub-header"><?php echo $home_contact_text; ?></h2>
 
 			<div class="space-15"></div>
 

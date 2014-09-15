@@ -36,7 +36,4 @@ $(document).ready(function() {
 		}
 		$('#gallery-modal-img').attr('src', galleryImages[galleryIndex % galleryImages.length]);
 	});
-
-	// Refresh skrollr as we've changed the height of the site
-	sk.refresh();
 });
