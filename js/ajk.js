@@ -1,5 +1,7 @@
+var sk = {};
+
 $(document).ready(function() {
-	skrollr.init({
+	sk = skrollr.init({
 		smoothScrolling: true
 	});
 
